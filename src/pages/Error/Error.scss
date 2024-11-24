@@ -1,0 +1,18 @@
+.body {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(35,175,210), rgb(92,89,247));
+}
+.status {
+    letter-spacing: 5px;
+    font-size: 300px;
+    line-height: 250px;
+}
+.notfound {
+    font-size: 70px;
+}
+.link-back {
+    border-radius: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+}

@@ -1,0 +1,49 @@
+.root-layout {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  
+    .toggle-sidebar-btn {
+      display: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+  
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+  
+    .sidebar-container {
+      flex-shrink: 0;
+      width: 300px;
+      transition: transform 0.3s ease;
+      transform: translateX(0);
+  
+      &.open {
+        transform: translateX(0);
+      }
+  
+      @media (max-width: 768px) {
+        transform: translateX(-100%);
+        position: absolute;
+        z-index: 999;
+        height: 100vh;
+        background-color: white;
+  
+        &.open {
+          transform: translateX(0);
+        }
+      }
+    }
+  
+    .main-content {
+      flex-grow: 1;
+      padding: 0;
+      overflow-y: auto;
+      height: 100vh;
+    }
+  }
+  

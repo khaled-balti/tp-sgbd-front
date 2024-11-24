@@ -1,0 +1,13 @@
+.btn {
+    border: 2px solid rgb(10,49,225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        border: 2px solid rgb(10,49,225);
+        background-color: rgb(10,49,225);
+    }
+}
+.btn-signup {
+    background-color: rgb(10,49,225);
+}

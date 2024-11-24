@@ -1,0 +1,41 @@
+.main {
+    background-color: #EAEAEA;
+    height: 100vh;
+}
+.data-core {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px #DDD;
+    .search {
+        height: 100%;
+        border: 1px solid #444;
+        border-radius: 15px;
+        overflow: hidden;
+        .input {
+            height: 100%;
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+    }
+    .button {
+        height: 100%;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: #4D79F6;
+    }
+    .cellWithImg {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+.icon {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: white;
+}

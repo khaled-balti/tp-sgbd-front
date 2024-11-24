@@ -1,0 +1,54 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #4D79F6;
+  }
+  
+
+  @media (max-width: 992px) {
+    .toggle-sidebar-btn {
+      display: block;
+    }
+
+  }
+
+  .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .titles {
+    color: #9FC2FE;
+    cursor: pointer;
+}
+.link {
+  &:hover {
+    background-color: #395CC2;
+    color: white;
+    border-radius: 15px;
+  }
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #b3c5f7;
+    cursor: pointer;
+    border-radius: 15px;
+    &:focus {
+      color: white;
+    }
+}
+
+.active-link {
+    background-color: #395CC2;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+  
